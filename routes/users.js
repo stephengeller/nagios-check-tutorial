@@ -11,7 +11,7 @@ router.get("/", function(req, res, next) {
         isEmployed: true
       },
       {
-        name: "Steve Hayes",
+        name: "Spongebob Squarepants",
         id: 2,
         isEmployed: true
       },
@@ -40,7 +40,7 @@ router.get("/passing", function(req, res, next) {
         isEmployed: true
       },
       {
-        name: "Steve Hayes",
+        name: "Spongebob Squarepants",
         id: 2,
         isEmployed: true
       },
@@ -69,7 +69,7 @@ router.get("/failing", function(req, res, next) {
         isEmployed: true
       },
       {
-        name: "Steve Hayes",
+        name: "Spongebob Squarepants",
         id: 2,
         isEmployed: true
       },
