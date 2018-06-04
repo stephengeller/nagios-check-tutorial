@@ -20,6 +20,14 @@ $ json-server json-server.json
 
 ```
 
+####How to query localhost server:
+Find local ip:
+
+- run `ifconfig | grep -A 5 en0`
+- Copy the number after inet (possibly 10.10.x.x)
+ - Then run curl against that ip instead of localhost, eg curl 10.10.10.140:3000/users
+
+
 Once the server is up, you can run either the python (`check_all_users_are_employed.py`) or shell (`check_all_users_are_employed.sh`) script _with an argument_ to verify whether users in our fake company are actually employed to the company or not.
 
 ```bash
