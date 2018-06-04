@@ -13,6 +13,13 @@ $ npm install # installs dependencies
 $ npm start # starts the server
 ```
 
+To launch basic json sever instead:
+```bash
+$ npm i -g json-server
+$ json-server json-server.json
+
+```
+
 Once the server is up, you can run either the python (`check_all_users_are_employed.py`) or shell (`check_all_users_are_employed.sh`) script _with an argument_ to verify whether users in our fake company are actually employed to the company or not.
 
 ```bash

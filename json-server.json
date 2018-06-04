@@ -1,0 +1,303 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "_id": "5b154582a9801f675eb425c2",
+      "index": 0,
+      "guid": "2eed9729-285c-417d-aff9-cffeeb8ef87e",
+      "isActive": true,
+      "balance": "$1,449.40",
+      "age": 25,
+      "eyeColor": "blue",
+      "name": {
+        "first": "Burns",
+        "last": "Frederick"
+      },
+      "company": "POLARIUM",
+      "email": "burns.frederick@polarium.org",
+      "phone": "+1 (964) 479-2837",
+      "friends": [
+        {
+          "id": 0,
+          "name": "Bradford Spencer"
+        },
+        {
+          "id": 1,
+          "name": "Antonia Hull"
+        },
+        {
+          "id": 2,
+          "name": "Eula Diaz"
+        }
+      ],
+      "favoriteFruit": "banana"
+    },
+    {
+      "_id": "5b1545826d220b9925247706",
+      "index": 1,
+      "guid": "6b867730-6bb9-404c-930d-02b24ee18243",
+      "isActive": true,
+      "balance": "$2,724.61",
+      "age": 38,
+      "eyeColor": "green",
+      "name": {
+        "first": "Mullins",
+        "last": "Case"
+      },
+      "company": "XPLOR",
+      "email": "mullins.case@xplor.tv",
+      "phone": "+1 (919) 449-3640",
+      "friends": [
+        {
+          "id": 0,
+          "name": "Norton Sellers"
+        },
+        {
+          "id": 1,
+          "name": "Audrey Oneil"
+        },
+        {
+          "id": 2,
+          "name": "Donovan Goodwin"
+        }
+      ],
+      "favoriteFruit": "apple"
+    },
+    {
+      "_id": "5b154582a09e150b90ac7e88",
+      "index": 2,
+      "guid": "14098fda-9e70-4c4b-a31e-0355b0b32beb",
+      "isActive": false,
+      "balance": "$2,482.52",
+      "age": 28,
+      "eyeColor": "green",
+      "name": {
+        "first": "Lucy",
+        "last": "Weber"
+      },
+      "company": "SCHOOLIO",
+      "email": "lucy.weber@schoolio.co.uk",
+      "phone": "+1 (879) 544-3913",
+      "friends": [
+        {
+          "id": 0,
+          "name": "Alba Holman"
+        },
+        {
+          "id": 1,
+          "name": "Fay Reynolds"
+        },
+        {
+          "id": 2,
+          "name": "Hutchinson Gardner"
+        }
+      ],
+      "favoriteFruit": "banana"
+    },
+    {
+      "_id": "5b154582c6c8472b4b0c4e59",
+      "index": 3,
+      "guid": "79e0b8c6-670e-4b19-a29c-ea7a824ed03f",
+      "isActive": false,
+      "balance": "$3,512.86",
+      "age": 23,
+      "eyeColor": "blue",
+      "name": {
+        "first": "Barnett",
+        "last": "Delacruz"
+      },
+      "company": "SKYPLEX",
+      "email": "barnett.delacruz@skyplex.name",
+      "phone": "+1 (900) 481-3751",
+      "friends": [
+        {
+          "id": 0,
+          "name": "Mckee Pugh"
+        },
+        {
+          "id": 1,
+          "name": "Cox Bowman"
+        },
+        {
+          "id": 2,
+          "name": "Hensley Wilcox"
+        }
+      ],
+      "favoriteFruit": "strawberry"
+    },
+    {
+      "_id": "5b154582671a6599f0709a0f",
+      "index": 4,
+      "guid": "9951328b-3628-48c0-9050-02aeb691b893",
+      "isActive": true,
+      "balance": "$1,689.83",
+      "age": 25,
+      "eyeColor": "brown",
+      "name": {
+        "first": "Suarez",
+        "last": "Lambert"
+      },
+      "company": "ENERSOL",
+      "email": "suarez.lambert@enersol.biz",
+      "phone": "+1 (973) 465-3581",
+      "friends": [
+        {
+          "id": 0,
+          "name": "Jody Stein"
+        },
+        {
+          "id": 1,
+          "name": "Hayes Salazar"
+        },
+        {
+          "id": 2,
+          "name": "Lesley Branch"
+        }
+      ],
+      "favoriteFruit": "strawberry"
+    },
+    {
+      "_id": "5b154582bf4db8c19a2e4498",
+      "index": 5,
+      "guid": "fb76606b-bb5a-45ac-862e-8a3336f9aaaf",
+      "isActive": false,
+      "balance": "$2,864.54",
+      "age": 36,
+      "eyeColor": "green",
+      "name": {
+        "first": "Howell",
+        "last": "Walton"
+      },
+      "company": "FURNAFIX",
+      "email": "howell.walton@furnafix.ca",
+      "phone": "+1 (986) 600-2413",
+      "friends": [
+        {
+          "id": 0,
+          "name": "Katheryn Briggs"
+        },
+        {
+          "id": 1,
+          "name": "Workman Bass"
+        },
+        {
+          "id": 2,
+          "name": "Donaldson Phelps"
+        }
+      ],
+      "favoriteFruit": "strawberry"
+    },
+    {
+      "_id": "5b1545827ae2ee2a7eb7d29c",
+      "index": 6,
+      "guid": "67ca33f2-4cc9-4567-9021-0e069a0452c9",
+      "isActive": false,
+      "balance": "$1,765.95",
+      "age": 38,
+      "eyeColor": "blue",
+      "name": {
+        "first": "Olive",
+        "last": "Strickland"
+      },
+      "company": "OMATOM",
+      "email": "olive.strickland@omatom.net",
+      "phone": "+1 (928) 465-2299",
+      "friends": [
+        {
+          "id": 0,
+          "name": "Chase Buchanan"
+        },
+        {
+          "id": 1,
+          "name": "Kaufman Matthews"
+        },
+        {
+          "id": 2,
+          "name": "Gabrielle Mccarty"
+        }
+      ],
+      "favoriteFruit": "banana"
+    },
+    {
+      "_id": "5b154582d34c6a2d1def9049",
+      "index": 7,
+      "guid": "1f152cce-5900-4ee0-83c3-86d3b021ab0b",
+      "isActive": true,
+      "balance": "$2,194.69",
+      "age": 39,
+      "eyeColor": "blue",
+      "name": {
+        "first": "Faith",
+        "last": "Howe"
+      },
+      "company": "PLASTO",
+      "email": "faith.howe@plasto.info",
+      "phone": "+1 (821) 579-2699",
+      "friends": [
+        {
+          "id": 0,
+          "name": "Hampton Kennedy"
+        },
+        {
+          "id": 1,
+          "name": "Dorothea Michael"
+        },
+        {
+          "id": 2,
+          "name": "Hodges Griffith"
+        }
+      ],
+      "favoriteFruit": "apple"
+    },
+    {
+      "_id": "5b15458222e5d39f0ba989ae",
+      "index": 8,
+      "guid": "312b3947-248f-4faf-85d3-4b91624b6415",
+      "isActive": false,
+      "balance": "$1,445.12",
+      "age": 32,
+      "eyeColor": "brown",
+      "name": {
+        "first": "Lewis",
+        "last": "Gilmore"
+      },
+      "company": "HOMETOWN",
+      "email": "lewis.gilmore@hometown.us",
+      "phone": "+1 (900) 552-2558",
+      "friends": [
+        {
+          "id": 0,
+          "name": "Francisca Cross"
+        },
+        {
+          "id": 1,
+          "name": "Ryan Shaffer"
+        },
+        {
+          "id": 2,
+          "name": "Zamora Bernard"
+        }
+      ],
+      "favoriteFruit": "banana"
+    }
+  ],
+  "test": {
+    "hello": "world"
+  }
+}
