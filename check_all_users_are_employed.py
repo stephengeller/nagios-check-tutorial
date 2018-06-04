@@ -4,9 +4,15 @@ import urllib2
 import json
 
 # TAKE IN PARAMETERS
-first_argument = sys.argv[1]
-endpoint = first_argument
-full_endpoint = 'http://localhost:3000/%s' % endpoint
+if len(sys.argv) == 1:
+    print "please pass in an endpoint, for example:"
+    print "$ %s [users OR users/passing OR users/failing]" % sys.argv[0]
+    sys.exit(1)
+else:
+    first_argument = sys.argv[1]
+    endpoint = first_argument
+    full_endpoint = 'http://localhost:3000/%s' % endpoint
+
 
 # EXECUTE LOGIC
 def check_for_unemployed_users(array_of_users):
