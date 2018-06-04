@@ -16,7 +16,133 @@
   "profile": {
     "name": "typicode"
   },
-  "users": [
+  "users-facebook": [
+    {
+      "_id": "5b154582a9801f675eb425c2",
+      "index": 0,
+      "guid": "2eed9729-285c-417d-aff9-cffeeb8ef87e",
+      "isActive": true,
+      "balance": "$1,449.40",
+      "age": 25,
+      "eyeColor": "blue",
+      "name": {
+        "first": "Burns",
+        "last": "Frederick"
+      },
+      "company": "POLARIUM",
+      "email": "burns.frederick@polarium.org",
+      "phone": "+1 (964) 479-2837",
+      "friends": [
+        {
+          "id": 0,
+          "name": "Bradford Spencer"
+        },
+        {
+          "id": 1,
+          "name": "Antonia Hull"
+        },
+        {
+          "id": 2,
+          "name": "Eula Diaz"
+        }
+      ],
+      "favoriteFruit": "banana"
+    },
+    {
+      "_id": "5b1545826d220b9925247706",
+      "index": 1,
+      "guid": "6b867730-6bb9-404c-930d-02b24ee18243",
+      "isActive": true,
+      "balance": "$2,724.61",
+      "age": 38,
+      "eyeColor": "green",
+      "name": {
+        "first": "Mullins",
+        "last": "Case"
+      },
+      "company": "XPLOR",
+      "email": "mullins.case@xplor.tv",
+      "phone": "+1 (919) 449-3640",
+      "friends": [
+        {
+          "id": 0,
+          "name": "Norton Sellers"
+        },
+        {
+          "id": 1,
+          "name": "Audrey Oneil"
+        },
+        {
+          "id": 2,
+          "name": "Donovan Goodwin"
+        }
+      ],
+      "favoriteFruit": "apple"
+    },
+    {
+      "_id": "5b154582671a6599f0709a0f",
+      "index": 4,
+      "guid": "9951328b-3628-48c0-9050-02aeb691b893",
+      "isActive": true,
+      "balance": "$1,689.83",
+      "age": 25,
+      "eyeColor": "brown",
+      "name": {
+        "first": "Suarez",
+        "last": "Lambert"
+      },
+      "company": "ENERSOL",
+      "email": "suarez.lambert@enersol.biz",
+      "phone": "+1 (973) 465-3581",
+      "friends": [
+        {
+          "id": 0,
+          "name": "Jody Stein"
+        },
+        {
+          "id": 1,
+          "name": "Hayes Salazar"
+        },
+        {
+          "id": 2,
+          "name": "Lesley Branch"
+        }
+      ],
+      "favoriteFruit": "strawberry"
+    },
+    {
+      "_id": "5b154582d34c6a2d1def9049",
+      "index": 7,
+      "guid": "1f152cce-5900-4ee0-83c3-86d3b021ab0b",
+      "isActive": true,
+      "balance": "$2,194.69",
+      "age": 39,
+      "eyeColor": "blue",
+      "name": {
+        "first": "Faith",
+        "last": "Howe"
+      },
+      "company": "PLASTO",
+      "email": "faith.howe@plasto.info",
+      "phone": "+1 (821) 579-2699",
+      "friends": [
+        {
+          "id": 0,
+          "name": "Hampton Kennedy"
+        },
+        {
+          "id": 1,
+          "name": "Dorothea Michael"
+        },
+        {
+          "id": 2,
+          "name": "Hodges Griffith"
+        }
+      ],
+      "favoriteFruit": "apple"
+    }
+  ],
+  "users-twitter": [
     {
       "_id": "5b154582a9801f675eb425c2",
       "index": 0,
@@ -296,8 +422,5 @@
       ],
       "favoriteFruit": "banana"
     }
-  ],
-  "test": {
-    "hello": "world"
-  }
+  ]
 }

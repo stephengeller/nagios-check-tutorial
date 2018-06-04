@@ -10,14 +10,8 @@ First, you'll need to set up the local server that our check will be querying:
 $ git clone git@github.com:stephengeller/nagios-check-tutorial.git
 $ cd nagios-check-tutorial
 $ npm install # installs dependencies
-$ npm start # starts the server
-```
-
-To launch basic json sever instead:
-```bash
-$ npm i -g json-server
-$ json-server json-server.json
-
+$ npm start # starts the ndoe server
+$ npm run json-only # starts a json-only server, serving the json-server.json file
 ```
 
 ####How to query localhost server:
