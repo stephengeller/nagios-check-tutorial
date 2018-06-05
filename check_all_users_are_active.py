@@ -16,7 +16,7 @@ full_endpoint = 'http://localhost:3000/%s' % endpoint
 
 # EXECUTE LOGIC
 def check_for_unemployed_users(array_of_users):
-    unemployed_users = filter(lambda x : x["isEmployed"] == False, array_of_users)
+    unemployed_users = filter(lambda x : x["isActive"] == False, array_of_users)
     return unemployed_users
 
 
@@ -37,7 +37,7 @@ def assess_response(unemployed_users):
     if unemployed_users:
         print 'Unemployed user(s) found:'
         for user in unemployed_users:
-            print "%s (uid: %s)" % (user['name'], user['id'])
+            print "%s %s (uid: %s)" % (user['name']['first'], user['name']['last'], user['_id'])
         sys.exit(1)
     else:
         print 'All users employed!'

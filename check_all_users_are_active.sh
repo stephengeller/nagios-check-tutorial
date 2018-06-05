@@ -11,12 +11,12 @@ if [[ -z $ENDPOINT ]]; then
 fi
 
 # EXECUTE LOGIC
-NOT_EMPLOYED_USERS=$(curl -s ${FULL_ENDPOINT} | jq ' .users[] | select(."isEmployed"==false)')
+NOT_EMPLOYED_USERS=$(curl -s ${FULL_ENDPOINT} | jq ' .[] | select(."isActive"==false)')
 
 # ASSESS RESULT
 if [[ ${NOT_EMPLOYED_USERS} ]]; then
   echo 'Unemployed user(s) found:'
-  echo ${NOT_EMPLOYED_USERS} | jq '"\(.name) (uid:\(.id))"'
+  echo ${NOT_EMPLOYED_USERS} | jq '"\(.name.first) \(.name.last) (uid:\(._id))"'
   exit 1
 else
   echo "All users are employed"
