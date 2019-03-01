@@ -14,7 +14,7 @@ $ npm start # starts the ndoe server
 $ npm run json-only # starts a json-only server, serving the json-server.json file
 ```
 
-####How to query localhost server:
+#### How to query localhost server:
 Find local ip:
 
 - run `ifconfig | grep -A 5 en0`
